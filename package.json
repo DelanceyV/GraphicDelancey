@@ -1,0 +1,29 @@
+{
+  "name": "graphicdelancey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DelanceyV/GraphicDelancey.git"
+  },
+  "author": "DelanceyVela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DelanceyV/GraphicDelancey/issues"
+  },
+  "homepage": "https://github.com/DelanceyV/GraphicDelancey#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.1"
+  }
+}

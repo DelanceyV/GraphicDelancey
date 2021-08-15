@@ -1,0 +1,43 @@
+/*
+Theme Name: customTheme
+Author: Delancey Vela
+Author URI:
+Version: 1.0
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16PX;
+    color: whitesmoke;
+    background-color: black;
+}
+
+a:link, a:visited {
+    color: rgb(250, 191, 250);
+}
+
+p {
+    line-height: 1.7em;
+}
+
+div.container {
+    max-width: 960px;
+    margin:0 auto;
+}
+
+article.post {
+    border-bottom: 4px dashed #ecf0f1;
+}
+
+article.post:last-of-type {
+    border-bottom: none;
+}
+
+.site-header {
+    border-bottom: 3px solid #ecf0f1;
+}
+
+.site-footer {
+    border-top: 3px solid #ecf0f1;
+}
+
