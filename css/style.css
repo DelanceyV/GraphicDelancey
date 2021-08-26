@@ -1,0 +1,139 @@
+body, html {
+  color: whitesmoke;
+  font-family: americane-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  height: 100%;
+  background-image: url(/images/GDBGplain.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: black;
+}
+
+.b {
+  padding: 1.5rem;
+}
+
+.col {
+justify-content: center;
+display: flex;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.50);
+  background-image: linear-gradient(to right, rgba(243, 143, 187, 0.1), rgba(228, 164, 85, 0.1), rgba(255, 246, 139, 0.1), rgba(130, 182, 106, 0.1), rgba(121, 116, 169, 0.1));
+}
+
+header {
+padding-bottom: -2rem;
+}
+
+.title {
+  color: white;
+  background: -webkit-linear-gradient(left, rgba(243, 143, 187), rgba(228, 164, 85), rgba(255, 246, 139), rgba(130, 182, 106), rgba(121, 116, 169));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.75rem;
+}
+
+.email {
+  color: white;
+  background: -webkit-linear-gradient(left, rgba(243, 143, 187), rgba(228, 164, 85), rgba(255, 246, 139), rgba(130, 182, 106), rgba(121, 116, 169));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.75rem;
+}
+
+h1 {
+  color: white;
+  position: absolute center;
+  margin: 30% 0;
+  z-index: 1;
+}
+
+.heading {
+  padding-bottom: 20px;
+  font-size: 1.75rem;
+}
+
+footer {
+  padding-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.gallery, .gallery1 {
+  height: 400px;
+  padding-bottom: 30px;
+  align-content: center;
+  float: none;
+  margin: 0 auto;
+}
+
+/* .grid, .grid1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+} */
+
+.btn {
+  color: white;
+  background: -webkit-linear-gradient(left, rgba(243, 143, 187), rgba(228, 164, 85), rgba(255, 246, 139), rgba(130, 182, 106), rgba(121, 116, 169));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  z-index: 2;
+  position: relative;
+  border: .01em solid rgba(255, 255, 255, 0.171);
+  margin: 2rem;
+}
+
+.btn_b {
+color: white;
+background: -webkit-linear-gradient(left, rgba(243, 143, 187), rgba(228, 164, 85), rgba(255, 246, 139), rgba(130, 182, 106), rgba(121, 116, 169));
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 4rem;
+border: .01em solid rgba(255, 255, 255, 0.171);
+}
+
+.btn:hover, .btn_b:hover {
+  opacity: .5;
+}
+
+.emailBtn {
+margin: 2rem;
+}
+
+.smallBtn {
+font-size: 2rem;
+margin: 2rem;
+}
+
+.bottomText {
+margin-bottom: -4rem;
+}
+
+@media screen and (max-width: 600px) {  
+  .heading, .title {font-size:2.75rem;}
+  h1 {font-size: large;}
+}
+
+@media screen and (max-width: 800px) {
+  .title {font-size: 3.75rem;}
+  .heading {font-size: 2.75rem;}
+  .stack {flex: 100%; max-width: 100%;}
+  .oneword {width: 90%; height: auto;}
+  h1 {font-size: x-large;}
+}
+
+@media screen and (min-width: 992px) {
+  h1, .title {font-size: 4.75rem;}
+  .heading {font-size: 2.75rem;}
+  /* .gallery, .gallery1 {height: 300px;} */
+}
