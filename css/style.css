@@ -24,6 +24,8 @@ display: flex;
 .jumbotron {
   background-color: rgba(0, 0, 0, 0.50);
   background-image: linear-gradient(to right, rgba(243, 143, 187, 0.1), rgba(228, 164, 85, 0.1), rgba(255, 246, 139, 0.1), rgba(130, 182, 106, 0.1), rgba(121, 116, 169, 0.1));
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 header {
@@ -86,10 +88,17 @@ footer {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4rem;
-  z-index: 2;
-  position: relative;
   border: .01em solid rgba(255, 255, 255, 0.171);
   margin: 2rem;
+  position: static;
+}
+
+.galBtn {
+    float: left;
+}
+
+.gameBtn {
+    float: right;
 }
 
 .btn_b {
@@ -98,7 +107,7 @@ background: -webkit-linear-gradient(left, rgba(243, 143, 187), rgba(228, 164, 85
 -webkit-background-clip: text;
 background-clip: text;
 -webkit-text-fill-color: transparent;
-font-size: 4rem;
+font-size: 2rem;
 border: .01em solid rgba(255, 255, 255, 0.171);
 }
 
@@ -120,8 +129,9 @@ margin-bottom: -4rem;
 }
 
 @media screen and (max-width: 600px) {  
-  .heading, .title {font-size:2.75rem;}
+  .heading, .title {font-size: 2.75rem;}
   h1 {font-size: large;}
+  .btn {font-size: xx-large;}
 }
 
 @media screen and (max-width: 800px) {
