@@ -32,7 +32,7 @@ header {
 padding-bottom: -2rem;
 }
 
-.title {
+.rainbow {
   color: white;
   background: -webkit-linear-gradient(left, rgba(243, 143, 187), rgba(228, 164, 85), rgba(255, 246, 139), rgba(130, 182, 106), rgba(121, 116, 169));
   -webkit-background-clip: text;
@@ -41,20 +41,8 @@ padding-bottom: -2rem;
   font-size: 1.75rem;
 }
 
-.email {
-  color: white;
-  background: -webkit-linear-gradient(left, rgba(243, 143, 187), rgba(228, 164, 85), rgba(255, 246, 139), rgba(130, 182, 106), rgba(121, 116, 169));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1.75rem;
-}
-
-h1 {
-  color: white;
-  position: absolute center;
-  margin: 30% 0;
-  z-index: 1;
+.titles {
+  margin-top: 10%;
 }
 
 .heading {
@@ -87,63 +75,56 @@ footer {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 4rem;
+  font-size: 2rem;
   border: .01em solid rgba(255, 255, 255, 0.171);
-  margin: 2rem;
-  position: static;
+  position: fixed;
+  bottom: 35%
 }
 
-.galBtn {
-    float: left;
+.left {
+  left: 25%;
 }
 
-.gameBtn {
-    float: right;
+.right {
+  right: 25%;
 }
 
-.btn_b {
-color: white;
-background: -webkit-linear-gradient(left, rgba(243, 143, 187), rgba(228, 164, 85), rgba(255, 246, 139), rgba(130, 182, 106), rgba(121, 116, 169));
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size: 2rem;
-border: .01em solid rgba(255, 255, 255, 0.171);
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
 }
 
-.btn:hover, .btn_b:hover {
+.btn:hover {
   opacity: .5;
-}
-
-.emailBtn {
-margin: 2rem;
 }
 
 .smallBtn {
 font-size: 2rem;
-margin: 2rem;
-}
-
-.bottomText {
-margin-bottom: -4rem;
 }
 
 @media screen and (max-width: 600px) {  
-  .heading, .title {font-size: 2.75rem;}
-  h1 {font-size: large;}
-  .btn {font-size: xx-large;}
+  .heading {font-size: 2.75rem;}
+  h1, h3 {font-size: large;}
+  .btn {font-size: 1rem;}
+  .left {left: 3px;}
+  .right {right: 3px;}
+  .bottom {width: 100%;}
 }
 
-@media screen and (max-width: 800px) {
-  .title {font-size: 3.75rem;}
+@media screen and (max-width: 992px) {
   .heading {font-size: 2.75rem;}
   .stack {flex: 100%; max-width: 100%;}
   .oneword {width: 90%; height: auto;}
   h1 {font-size: x-large;}
+  .btn {font-size: 2rem;}
+  .left {left: 15%;}
+  .right {right: 15%;}
+  .bottom {width: 75%;}
 }
 
 @media screen and (min-width: 992px) {
-  h1, .title {font-size: 4.75rem;}
+  h1 {font-size: xx-large;}
   .heading {font-size: 2.75rem;}
   /* .gallery, .gallery1 {height: 300px;} */
 }
